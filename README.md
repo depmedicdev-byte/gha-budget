@@ -4,6 +4,8 @@ Estimate the dollar cost of a GitHub Actions workflow before you commit it.
 Per-runner pricing, matrix expansion, monthly projection. CLI and JSON
 output.
 
+![demo](docs/demo.svg)
+
 ```bash
 $ npx gha-budget --runs-per-day=30 --minutes=8
 
