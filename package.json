@@ -1,6 +1,6 @@
 {
   "name": "gha-budget",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Estimate the dollar cost of a GitHub Actions workflow before you commit it. Per-runner pricing, monthly projections, JSON for CI.",
   "keywords": [
     "github-actions",
@@ -44,5 +44,8 @@
   "homepage": "https://github.com/depmedicdev-byte/gha-budget#readme",
   "bugs": {
     "url": "https://github.com/depmedicdev-byte/gha-budget/issues"
+  },
+  "devDependencies": {
+    "esbuild": "^0.28.0"
   }
 }

@@ -6,6 +6,10 @@ Estimate the dollar cost of a GitHub Actions workflow before you commit it.
 Per-runner pricing, matrix expansion, monthly projection. CLI and JSON
 output.
 
+> Try it without installing: paste a workflow into the
+> [in-browser budget](https://depmedicdev-byte.github.io/budget.html). Same
+> matrix expansion and pricing model, runs entirely client-side.
+
 ![demo](docs/demo.svg)
 
 ```bash
