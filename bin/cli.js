@@ -32,7 +32,9 @@ function parseArgs(argv) {
     else if (x === '--markdown' || x === '--md') a.format = 'markdown';
     else if (x === '--file') a.file = argv[++i];
     else if (x.startsWith('--file=')) a.file = x.slice(7);
+    else if (x === '--minutes') a.minutes = Number(argv[++i]);
     else if (x.startsWith('--minutes=')) a.minutes = Number(x.slice(10));
+    else if (x === '--runs-per-day') a.runsPerDay = Number(argv[++i]);
     else if (x.startsWith('--runs-per-day=')) a.runsPerDay = Number(x.slice(15));
     else if (x.startsWith('--')) { console.error('unknown flag: ' + x); process.exit(2); }
     else a.positional.push(x);
