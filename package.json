@@ -1,0 +1,48 @@
+{
+  "name": "gha-budget",
+  "version": "0.1.0",
+  "description": "Estimate the dollar cost of a GitHub Actions workflow before you commit it. Per-runner pricing, monthly projections, JSON for CI.",
+  "keywords": [
+    "github-actions",
+    "ci",
+    "cost",
+    "budget",
+    "estimate",
+    "pricing",
+    "runner",
+    "workflow",
+    "yaml",
+    "cli"
+  ],
+  "bin": {
+    "gha-budget": "bin/cli.js"
+  },
+  "main": "src/index.js",
+  "type": "commonjs",
+  "files": [
+    "bin",
+    "src",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md"
+  ],
+  "scripts": {
+    "test": "node --test test/*.test.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "yaml": "^2.5.0"
+  },
+  "license": "MIT",
+  "author": "depmedic <depmedic.dev@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/depmedicdev-byte/gha-budget.git"
+  },
+  "homepage": "https://github.com/depmedicdev-byte/gha-budget#readme",
+  "bugs": {
+    "url": "https://github.com/depmedicdev-byte/gha-budget/issues"
+  }
+}
