@@ -1,5 +1,7 @@
 # gha-budget
 
+[![npm](https://img.shields.io/npm/v/gha-budget.svg)](https://www.npmjs.com/package/gha-budget) [![ci](https://github.com/depmedicdev-byte/gha-budget/actions/workflows/test.yml/badge.svg)](https://github.com/depmedicdev-byte/gha-budget/actions/workflows/test.yml) [![license](https://img.shields.io/npm/l/gha-budget.svg)](./LICENSE)
+
 Estimate the dollar cost of a GitHub Actions workflow before you commit it.
 Per-runner pricing, matrix expansion, monthly projection. CLI and JSON
 output.
