@@ -1,0 +1,6 @@
+# https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/displaying-a-sponsor-button-in-your-repository
+github: [depmedicdev-byte]   # KYC pending; once live, GitHub auto-uses this
+custom:
+  - https://buy.polar.sh/polar_cl_BGcLSOeiHg1yFfq5kOIayEcTgvSGqCLa6LnBU4PyHIJ   # tip jar (PWYW)
+  - https://depmedicdev-byte.github.io/sponsor.html                              # corporate sponsor slots
+  - https://buy.polar.sh/polar_cl_jIWvHP9F03ijfpcYMq24jG6JQqLQQglNxVqZQ35kHza   # depmedic Pro Solo $5/mo

@@ -1,5 +1,8 @@
 # gha-budget
 
+
+[![Sponsor](https://img.shields.io/badge/sponsor-depmedic-ea4aaa?logo=githubsponsors)](https://depmedicdev-byte.github.io/sponsor.html)
+
 [![npm](https://img.shields.io/npm/v/gha-budget.svg)](https://www.npmjs.com/package/gha-budget) [![ci](https://github.com/depmedicdev-byte/gha-budget/actions/workflows/test.yml/badge.svg)](https://github.com/depmedicdev-byte/gha-budget/actions/workflows/test.yml) [![license](https://img.shields.io/npm/l/gha-budget.svg)](./LICENSE)
 
 Estimate the dollar cost of a GitHub Actions workflow before you commit it.
